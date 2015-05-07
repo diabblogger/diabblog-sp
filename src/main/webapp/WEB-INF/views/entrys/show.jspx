@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_diabblog_domain_Entry" object="${entry}" path="/entrys" z="hEdZtnsNu7Qq+C5/fvHJXaZtB5Y=">
+        <field:display field="bloodSugarLevel" id="s_org_diabblog_domain_Entry_bloodSugarLevel" object="${entry}" z="ZXRXdtN30tQiW43q5D21nhirmeo="/>
+        <field:display field="slowInsulin" id="s_org_diabblog_domain_Entry_slowInsulin" object="${entry}" z="abw6muhgBF3nDREBxrDdBZk2mZ0="/>
+        <field:display field="fastInsulin" id="s_org_diabblog_domain_Entry_fastInsulin" object="${entry}" z="zgCirQHwEI+QBHscK6RY13ZSyp4="/>
+        <field:display field="correction" id="s_org_diabblog_domain_Entry_correction" object="${entry}" z="E3KCt4M6xGzvBwP13Lm2A+sMHzs="/>
+        <field:display field="carbs" id="s_org_diabblog_domain_Entry_carbs" object="${entry}" z="OaZMiqKEYAbh9RmfCf9UXGjqvsE="/>
+        <field:display field="comments" id="s_org_diabblog_domain_Entry_comments" object="${entry}" z="/mUKviVmgbOBLq95sWCF6pDbJ+I="/>
+    </page:show>
+</div>

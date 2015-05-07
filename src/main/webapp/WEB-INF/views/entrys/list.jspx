@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_diabblog_domain_Entry" items="${entrys}" z="SMRE4zTCCVdH5ioQ1ztuPtXpGo0=">
+        <table:table data="${entrys}" id="l_org_diabblog_domain_Entry" path="/entrys" z="XOHm2n8z0/RGeQz+SNgGRTnCu40=">
+            <table:column id="c_org_diabblog_domain_Entry_bloodSugarLevel" property="bloodSugarLevel" z="dh/AZ8RlerJ9iXsvRvzISa/Mhys="/>
+            <table:column id="c_org_diabblog_domain_Entry_slowInsulin" property="slowInsulin" z="zK4DkPSJJmxiryWTCxpItSVGEIw="/>
+            <table:column id="c_org_diabblog_domain_Entry_fastInsulin" property="fastInsulin" z="2cEh8DcKoTY8H6DyLQ3Xzar6j54="/>
+            <table:column id="c_org_diabblog_domain_Entry_correction" property="correction" z="H7PNZAL4AcEbvySiG332wsEh9lY="/>
+            <table:column id="c_org_diabblog_domain_Entry_carbs" property="carbs" z="8lwHsgFCRpMJGa5gjmEcKPbm/kU="/>
+            <table:column id="c_org_diabblog_domain_Entry_comments" property="comments" z="c8obkxXi7ACuEdSLACw1y97dUaY="/>
+        </table:table>
+    </page:list>
+</div>
